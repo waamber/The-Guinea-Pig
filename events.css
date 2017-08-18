@@ -1,0 +1,30 @@
+.article-section-sec1 {
+	font-weight: bold;
+}
+
+.article-section-sec3 {
+	font-weight: bold;
+}
+
+#keypress-input {
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#output-target {
+	border: 2px solid black;
+	margin: 25px;
+	padding: 25px;
+	width: 200px;
+}
+
+.guineaDiv {
+	margin: 20px;
+	padding: 20px;
+	width: 400px;
+}
+
+button {
+	display: block;
+	margin: 10px;
+}
