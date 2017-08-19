@@ -14,19 +14,8 @@ targetOutput.innerHTML = inputString;
 
 //SECTION CLICK EVENTS
 sections.addEventListener("click", function(event){
-	if(event.target.className === "article-section-intro") {
-		targetOutput.innerHTML = "You clicked on the Introduction section!";
-	}else if (event.target.className === "article-section-body") {
-		targetOutput.innerHTML = "You clicked on the Body section!";
-	}else if (event.target.className === "article-section-sec1") {
-		targetOutput.innerHTML = "You clicked on Section 1!";
-	}else if (event.target.className === "article-section-sec2") {
-		targetOutput.innerHTML = "You clicked on Section 2!";	
-	}else if (event.target.className === "article-section-sec3") {
-		targetOutput.innerHTML = "You clicked on Section 3!";	
-	}else if (event.target.className === "article-section-conclusion") {
-		targetOutput.innerHTML = "You clicked on the Conclusion section!";	
-	}			
+	targetOutput.innerHTML = `You clicked on the ${event.target.innerHTML} section!`;
+			
 });
 
 //H1 MOUSEOVER/OUT EVENTS
