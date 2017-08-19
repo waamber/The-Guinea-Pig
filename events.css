@@ -28,3 +28,23 @@ button {
 	display: block;
 	margin: 10px;
 }
+
+.blue {
+	color: blue;
+}
+
+.fontSize {
+	font-size: 40px;
+}
+
+.border {
+	border: 4px dotted purple;
+}
+
+.rounded {
+	border-radius: 15px;
+}
+
+
+
+

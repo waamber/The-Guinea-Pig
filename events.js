@@ -48,33 +48,31 @@ inputText.onkeyup = function() {
 };
 
 
-
-
 //CHANGES GUINEA PIG TEXT TO BLUE
 colorBtn.addEventListener("click", function(event) {
 	if(event.target.id === "add-color") {
-		guineaDiv.style.color = "blue";
+		guineaDiv.classList.add('blue');
 	}
 });
 
 //INCREASES GUINEA PIG FONT SIZE
 hulkifyBtn.addEventListener("click", function(event) {
 	if(event.target.id === "make-large") {
-		guineaDiv.style.fontSize = "40px";
+		guineaDiv.classList.add('fontSize');
 	}
 });
 
 //ADDS BORDER TO GUINEA PIG DIV
 borderBtn.addEventListener("click", function(event) {
 	if(event.target.id === "add-border") {
-		guineaDiv.style.border = "2px dotted purple";
+		guineaDiv.classList.add('border');
 	}
 });
 
 //ADDS BORDER RADIUS TO GUINEA PIG DIV
 roundBtn.addEventListener("click", function(event) {
 	if(event.target.id === "add-rounding") {
-		guineaDiv.style.borderRadius = "10px";
+		guineaDiv.classList.add('rounded');
 	}
 });
 
