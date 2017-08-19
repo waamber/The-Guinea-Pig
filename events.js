@@ -14,6 +14,7 @@ targetOutput.innerHTML = inputString;
 
 //SECTION CLICK EVENTS
 sections.addEventListener("click", function(event){
+	console.log(event);
 	targetOutput.innerHTML = `You clicked on the ${event.target.innerHTML} section!`;
 			
 });
@@ -65,7 +66,18 @@ roundBtn.addEventListener("click", function(event) {
 	}
 });
 
+function styles() {
+	var sectionChild = sections.children;
+	for(var i = 0; i < sectionChild.length; i++) {
+	if(i === 2) {
+		sectionChild[i].classList.add("bold");
+	}else if (i === 4) {
+		sectionChild[i].classList.add("italic", "bold");
+	}
+}
+};
 
+styles(sections);
 
 
 

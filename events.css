@@ -1,9 +1,8 @@
-.article-section-sec1 {
+.bold {
 	font-weight: bold;
 }
-
-.article-section-sec3 {
-	font-weight: bold;
+.italic {
+	font-style: italic;
 }
 
 #keypress-input {
