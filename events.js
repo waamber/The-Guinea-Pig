@@ -42,14 +42,13 @@ h1.addEventListener("mouseout", function(event){
 	}
 });
 
-//INPUT KEYDOWN EVENT
-inputText.addEventListener("keydown", function(event) {
-	if(event.keyCode === 13) {
-	var	text = inputText.value;
-	targetOutput.innerHTML = text;
+//INPUT ONKEYUP EVENT
+inputText.onkeyup = function() {
+	targetOutput.innerHTML = inputText.value;
+};
 
-	}
-})
+
+
 
 //CHANGES GUINEA PIG TEXT TO BLUE
 colorBtn.addEventListener("click", function(event) {
